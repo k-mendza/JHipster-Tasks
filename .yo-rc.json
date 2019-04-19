@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.d3v4.tasks"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "tasks",
+        "packageName": "com.d3v4.tasks",
+        "packageFolder": "com/d3v4/tasks",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "N2EwMDMzYTVmNDgzYjJkZGQ0MmY2ZWFiMGNjNjEwZWIwODFmYWM2MzU5NTg4MDViMGMxMDRkMWNlOGYzMWIyYzY0Y2U0ZDIwMDdiZTYxMDA4ZWNjNGFlNjU3NTQ5ZGZmOWJlZmRjMGNhZWVmYjZlNTI1OTU4ZWI0MjA1ZjgzOTI=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
