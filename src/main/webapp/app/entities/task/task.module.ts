@@ -18,6 +18,7 @@ const ENTITY_STATES = [...taskRoute, ...taskPopupRoute];
     imports: [TasksSharedModule, RouterModule.forChild(ENTITY_STATES)],
     declarations: [TaskComponent, TaskDetailComponent, TaskUpdateComponent, TaskDeleteDialogComponent, TaskDeletePopupComponent],
     entryComponents: [TaskComponent, TaskUpdateComponent, TaskDeleteDialogComponent, TaskDeletePopupComponent],
+    exports: [TaskComponent],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class TasksTaskModule {}
